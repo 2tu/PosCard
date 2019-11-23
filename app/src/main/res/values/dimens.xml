@@ -1,0 +1,12 @@
+<resources>
+    <dimen name="margin">16dp</dimen>
+    <dimen name="margin_small">8dp</dimen>
+    <dimen name="margin_smaller">4dp</dimen>
+    <dimen name="margin_large">24dp</dimen>
+    <dimen name="nav_header_height">176dp</dimen>
+
+    <dimen name="font_larger">24sp</dimen>
+    <dimen name="font_middle">18sp</dimen>
+    <dimen name="font_normal">16sp</dimen>
+    <dimen name="font_small">14sp</dimen>
+</resources>

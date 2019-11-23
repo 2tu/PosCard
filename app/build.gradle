@@ -1,0 +1,57 @@
+apply plugin: 'com.android.application'
+
+android {
+    compileSdkVersion 28
+    defaultConfig {
+        applicationId "com.tu.poscard"
+        minSdkVersion 16
+        targetSdkVersion 28
+        versionCode 5
+        versionName "0.5.0"
+        vectorDrawables.useSupportLibrary true
+
+        ndk {
+            //支持的CPU架构，如armeabi、x86、mips等
+            abiFilters "armeabi", "x86"
+        }
+    }
+
+    packagingOptions {
+        doNotStrip '*/mips/*.so'
+        doNotStrip '*/mips64/*.so'
+    }
+
+    buildTypes {
+        release {
+            minifyEnabled true
+            shrinkResources true
+            proguardFiles getDefaultProguardFile('proguard-android.txt'), 'proguard-rules.pro'
+        }
+    }
+
+    flavorDimensions ""
+    productFlavors {
+        internal {
+            applicationIdSuffix '.internal'
+        }
+        production {
+        }
+    }
+}
+
+dependencies {
+    implementation fileTree(dir: 'libs', include: ['*.jar'])
+    implementation 'com.android.support:appcompat-v7:28.0.0-alpha1'
+    implementation 'com.android.support:design:28.0.0-alpha1'
+    implementation 'com.android.support.constraint:constraint-layout:1.1.0'
+    implementation 'com.android.support:support-v4:28.0.0-alpha1'
+    implementation 'com.android.support:recyclerview-v7:28.0.0-alpha1'
+
+    implementation 'com.tencent.wcdb:wcdb-android:1.0.8'
+
+    implementation 'io.card:android-sdk:5.5.1'
+
+    implementation 'com.jakewharton:butterknife:8.8.1'
+    annotationProcessor 'com.jakewharton:butterknife-compiler:8.8.1'
+    implementation 'com.jakewharton.timber:timber:4.5.1'
+}

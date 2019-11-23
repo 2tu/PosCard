@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#75C05B</color>
+    <color name="colorPrimaryDark">#497C30</color>
+    <color name="colorAccent">#D81B60</color>
+
+    <color name="black">#ff000000</color>
+    <color name="red">#ffff0000</color>
+    <color name="lighter_gray">#ddd</color>
+    <!-- A dark gray, equivalent to 0xffaaaaaa -->
+    <color name="darker_gray">#aaa</color>
+    <color name="orange">#ffff6d00</color><!-- Orange -->
+</resources>

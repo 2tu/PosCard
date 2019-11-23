@@ -1,0 +1,73 @@
+<resources>
+    <string name="app_name">TXAssistant</string>
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="nav_header_subtitle">enum@foxmail.com</string>
+    <string name="nav_header_desc">Navigation header</string>
+
+    <string name="save">保存</string>
+
+    <string name="bankcard_edit">编辑银行卡</string>
+    <string name="bankcard">银行卡</string>
+    <string name="sold_list">交易流水</string>
+    <string name="sold_add">编辑交易</string>
+    <string name="statement_add">编辑账单</string>
+    <string name="settle_type_add">编辑结算方式</string>
+    <string name="repayment_pending">待还款</string>
+    <string name="pay_off">已还清</string>
+    <string name="overdue">逾期</string>
+    <string name="settings">配置</string>
+    <string name="settle_type">结算方式</string>
+    <string name="service_charge">手续费</string>
+    <string name="extra_charge">附加费</string>
+    <string name="t1">T + 1</string>
+    <string name="d0">D + 0</string>
+    <string name="label_new_balance">账单</string>
+    <string name="label_have_balance">应还</string>
+    <string name="label_statement_day">天内还款</string>
+    <string name="repayment">立即还款</string>
+    <string name="statement_date">账单日:</string>
+    <string name="payment_due_date">还款日:</string>
+    <string name="label_due_day">(账单日顺延)</string>
+    <string name="sold_sum_arg">交易金额%1s,手续费%2s,附加费%3s,\n剩余金额%4s</string>
+    <string name="ymu_arg">%1s年%2s月</string>
+    <string name="statement_sum_arg">共计%1s张账单,金额%2s\n未还%3s张账单,金额%4s</string>
+    <string name="today">今</string>
+    <string name="day">天</string>
+    <string name="day_overdue">天逾期</string>
+    <string name="label_credit_limit">授信额度:</string>
+
+    <string name="hint_input_name">请输入名称</string>
+    <string name="hint_service_charge_expression">请输入手续费公式(0.60)</string>
+    <string name="hint_extra_charge_expression">请输入附加费公式(3)</string>
+    <string name="hint_trans_date">请输入交易日期</string>
+    <string name="hint_bankcard">请输入银行卡</string>
+    <string name="hint_settle_type">请选择结算方式</string>
+    <string name="hint_amount">请输入金额</string>
+    <string name="hint_service_charge">请输入手续费</string>
+    <string name="hint_extra_charge">请输入附加费</string>
+    <string name="hin_new_balance">请输入应还款金额</string>
+    <string name="hint_min_payment">请输入最低还款金额</string>
+    <string name="hint_payment">请输入已还款金额</string>
+    <string name="hint_name">请输入持卡人姓名</string>
+    <string name="hint_bank">请输入发卡银行</string>
+    <string name="hint_cardno">请输入银行卡号</string>
+    <string name="hint_statement_date">请输入账单日(7)</string>
+    <string name="hint_payment_due_date_day">请输入还款日(25)</string>
+    <string name="hint_payment_due_date">请输入还款日(20181225)</string>
+    <string name="hint_payment_due_day">请输入还款日顺延账单日天数(20)</string>
+    <string name="hint_card_type">请选择银行卡类型</string>
+    <string name="hint_credit_limit">请输入授信额度</string>
+    <string name="hint_description">请输入备注</string>
+
+    <string name="action_add">添加</string>
+    <string name="action_edit">编辑</string>
+    <string name="msg_error_add">保存失败</string>
+    <string name="msg_success_add">保存成功</string>
+    <string name="msg_error_amount">金额错误</string>
+    <string name="msg_error_update">更新错误</string>
+
+    <string name="error_date">日期错误</string>
+    <string name="msg_exit">再按一次退出现助理</string>
+
+</resources>

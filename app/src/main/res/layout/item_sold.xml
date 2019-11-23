@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:padding="@dimen/margin">
+<LinearLayout
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="horizontal">
+    <TextView
+        android:id="@+id/bankcard"
+        style="@style/TextView"
+        tools:text="银行卡" />
+    <TextView
+        android:id="@+id/amount"
+        style="@style/TextView"
+        android:layout_width="0dp"
+        android:layout_weight="1"
+        android:textSize="@dimen/font_middle"
+        android:textStyle="bold"
+        android:layout_marginLeft="@dimen/margin_small"
+        android:gravity="right"
+        tools:text="100000" />
+</LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_marginTop="@dimen/margin_small">
+        <TextView
+            android:id="@+id/date"
+            style="@style/TextView.Second"
+            tools:text="201801225" />
+        <TextView
+            android:id="@+id/balance"
+            style="@style/TextView"
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:textStyle="bold"
+            android:layout_marginLeft="@dimen/margin_small"
+            android:gravity="right"
+            tools:text="100000" />
+    </LinearLayout>
+</LinearLayout>

@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+
+    <TextView
+        android:id="@+id/cancel"
+        style="@style/TextView"
+        android:padding="@dimen/margin"
+        android:text="@android:string/cancel" />
+
+    <TextView
+        android:id="@+id/confirm"
+        style="@style/TextView"
+        android:layout_alignParentRight="true"
+        android:padding="@dimen/margin"
+        android:text="@android:string/yes"
+        android:textColor="@color/colorPrimary" />
+
+    <DatePicker
+        android:id="@+id/date_picker"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/cancel"
+        android:layout_centerInParent="true"
+        android:calendarViewShown="false"
+        android:datePickerMode="spinner" />
+
+</RelativeLayout>
