@@ -39,6 +39,7 @@
     <TextView
         android:id="@+id/cardno_tv"
         style="@style/TextView"
+        android:textIsSelectable="true"
         tools:text="222222222222222222228899" />
 
     <LinearLayout

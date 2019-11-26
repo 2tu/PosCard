@@ -47,6 +47,7 @@
                         style="@style/TextView"
                         android:textSize="@dimen/font_middle"
                         android:layout_marginLeft="@dimen/margin_smaller"
+                        android:textIsSelectable="true"
                         tools:text="800" />
 
                 </LinearLayout>
@@ -65,6 +66,7 @@
                         android:textStyle="bold"
                         android:textSize="@dimen/font_middle"
                         android:layout_marginLeft="@dimen/margin_smaller"
+                        android:textIsSelectable="true"
                         tools:text="800" />
 
                 </LinearLayout>
